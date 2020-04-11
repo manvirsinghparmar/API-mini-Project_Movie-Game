@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11272" started-at="2020-04-11T05:22:32Z" finished-at="2020-04-11T05:22:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11272" started-at="2020-04-11T05:22:32Z" finished-at="2020-04-11T05:22:43Z">
+      <class name="MiniRestApiProject.MiniRestApiProject.GET_Single_Game">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_Single_Game@5906ebcb]" name="setUp" is-config="true" duration-ms="2" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllGames()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_Single_Game@5906ebcb]" name="getAllGames" is-config="true" duration-ms="20" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGames -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_Single_Game@5906ebcb]" name="getStatusCode" duration-ms="1" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="responseBody()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_Single_Game@5906ebcb]" name="responseBody" duration-ms="1" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBody -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_Single_Game@5906ebcb]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniRestApiProject.MiniRestApiProject.GET_Single_Game -->
+      <class name="MiniRestApiProject.MiniRestApiProject.Post_New_Game">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Post_New_Game@258e2e41]" name="setUp" is-config="true" duration-ms="1" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postGame()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Post_New_Game@258e2e41]" name="postGame" is-config="true" duration-ms="5031" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGame -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Post_New_Game@258e2e41]" name="getResponseBody" duration-ms="1" started-at="2020-04-11T05:22:43Z" finished-at="2020-04-11T05:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Post_New_Game@258e2e41]" name="getStatusCode" duration-ms="1" started-at="2020-04-11T05:22:43Z" finished-at="2020-04-11T05:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Post_New_Game@258e2e41]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T05:22:43Z" finished-at="2020-04-11T05:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniRestApiProject.MiniRestApiProject.Post_New_Game -->
+      <class name="MiniRestApiProject.MiniRestApiProject.GET_All_Games">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_All_Games@3b2da18f]" name="setUp" is-config="true" duration-ms="484" started-at="2020-04-11T05:22:32Z" finished-at="2020-04-11T05:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllGames()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_All_Games@3b2da18f]" name="getAllGames" is-config="true" duration-ms="594" started-at="2020-04-11T05:22:32Z" finished-at="2020-04-11T05:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGames -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_All_Games@3b2da18f]" name="getStatusCode" duration-ms="6" started-at="2020-04-11T05:22:33Z" finished-at="2020-04-11T05:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="responseBody()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_All_Games@3b2da18f]" name="responseBody" duration-ms="19" started-at="2020-04-11T05:22:33Z" finished-at="2020-04-11T05:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBody -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.GET_All_Games@3b2da18f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T05:22:33Z" finished-at="2020-04-11T05:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniRestApiProject.MiniRestApiProject.GET_All_Games -->
+      <class name="MiniRestApiProject.MiniRestApiProject.Update_a_Game">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Update_a_Game@3d299e3]" name="setUp" is-config="true" duration-ms="2" started-at="2020-04-11T05:22:33Z" finished-at="2020-04-11T05:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postGame()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Update_a_Game@3d299e3]" name="postGame" is-config="true" duration-ms="5053" started-at="2020-04-11T05:22:33Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGame -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Update_a_Game@3d299e3]" name="getResponseBody" duration-ms="2" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Update_a_Game@3d299e3]" name="getStatusCode" duration-ms="1" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Update_a_Game@3d299e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniRestApiProject.MiniRestApiProject.Update_a_Game -->
+      <class name="MiniRestApiProject.MiniRestApiProject.Delete_Game">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Delete_Game@55a561cf]" name="setUp" is-config="true" duration-ms="2" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllGames()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Delete_Game@55a561cf]" name="getAllGames" is-config="true" duration-ms="19" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGames -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Delete_Game@55a561cf]" name="getStatusCode" duration-ms="0" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="responseBody()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Delete_Game@55a561cf]" name="responseBody" duration-ms="1" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBody -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MiniRestApiProject.MiniRestApiProject.Delete_Game@55a561cf]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T05:22:38Z" finished-at="2020-04-11T05:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniRestApiProject.MiniRestApiProject.Delete_Game -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
